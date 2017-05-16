@@ -15,5 +15,5 @@ script:
 after_success:
   - if [ "$TRAVIS_BRANCH" == "dev-env" ]; then
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-    docker push USER/REPO:$TRAVIS_BRANCH;
+    docker push moiamond/ffmpeg-windows-build-helpers:$TRAVIS_BRANCH;
     fi
