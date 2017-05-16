@@ -1,4 +1,4 @@
-FROM moiamond/ffmpeg-windows-build-helpers:crosstool-windows
+FROM moiamond/ffmpeg-windows-build-helpers:crosstool-win
 MAINTAINER moiamond <moiamond@gmail.com>
 
 WORKDIR /build
